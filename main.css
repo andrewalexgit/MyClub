@@ -1,0 +1,91 @@
+header {
+  color: #010101;
+  background-color: #acdbdf;
+  font-family: Verdana; }
+  header img {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 40px; }
+  header a {
+    padding-top: 5px;
+    padding-right: 5px;
+    font-size: 11px;
+    text-align: center; }
+  header input {
+    padding-top: 5px;
+    padding-right: 5px;
+    text-align: center; }
+  header h1 {
+    margin: 0;
+    padding-top: 5px; }
+  header h4 {
+    padding-bottom: 5px;
+    padding-right: 5px; }
+
+.centerContainer {
+  color: #010101;
+  text-align: center;
+  font-family: Verdana; }
+  .centerContainer h2 {
+    color: #69779b; }
+  .centerContainer h4 {
+    color: #69779b; }
+
+.bigLinkButton {
+  text-decoration: none;
+  color: #010101;
+  background-color: rgba(93, 218, 49, 0.46);
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgba(1, 1, 1, 0.53); }
+
+.bigLinkButton:hover {
+  background-color: rgba(93, 218, 49, 0.75); }
+
+.bigAlertButton {
+  text-decoration: none;
+  color: #010101;
+  background-color: rgba(218, 16, 22, 0.46);
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgba(1, 1, 1, 0.53); }
+
+.bigAlertButton:hover {
+  background-color: rgba(218, 9, 17, 0.75); }
+
+.smallLinkButton {
+  text-decoration: none;
+  color: #010101;
+  background-color: rgba(93, 218, 49, 0.46);
+  padding: 3px;
+  border-radius: 5px;
+  border: 2px solid rgba(1, 1, 1, 0.53); }
+
+.smallLinkButton:hover {
+  background-color: rgba(93, 218, 49, 0.75); }
+
+.labelTextBoxHeader {
+  display: inline-block; }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f0ece2;
+  text-align: center; }
+  .footer p {
+    font-size: 10px;
+    display: inline-block; }
+  .footer a {
+    font-size: 10px;
+    display: inline-block; }
+
+html, body {
+  background-color: #f0ece2;
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=main.css.map */

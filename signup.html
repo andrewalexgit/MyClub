@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 1</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="scripts/lib/jquery3.3.1.js"></script>
+    <script src="scripts/script.js"></script>
+</head>
+<body onload="ldSignup()">
+<header>
+
+    <div style="float: right; margin-top: 5px;">
+        <a href="signin.html" class="smallLinkButton">Sign in</a>&nbsp&nbsp
+    </div>
+
+    <img src="img/org.png" height="78" width="78" alt="My Club!">
+
+    <h1>MyClub</h1>
+    <h4>Connect, plan, and organize!</h4>
+
+</header>
+
+<a href="index.html" style="float: left; padding-left: 10px;">Return home</a>
+
+<br>
+
+<div class="centerContainer">
+    <h2>Let's get you all set-up!</h2>
+    <h4 style="display: inline-block;">First fill out all fields marked with an asterisk</h4>
+    <p style="color: red; display: inline-block">*</p>
+
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <p id="lblOrgName" style="color: red; display: inline-block">*</p>
+                    <p class="labelTextBoxHeader">Your organizations name:&nbsp&nbsp</p>
+                </td>
+                <td>
+                    <input id="newOrgName" type="text" style="display: inline-block" placeholder="My Club">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="lblEmail" style="color: red; display: inline-block">*</p>
+                    <p class="labelTextBoxHeader">Contact E-Mail:&nbsp&nbsp</p>
+                </td>
+                <td>
+                    <input id="newEmail" type="email" pattern="[^ @]*@[^ @]*" style="display: inline-block" placeholder="andrew@myclub.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="lblTel" style="color: red; display: inline-block">&nbsp&nbsp</p>
+                    <p class="labelTextBoxHeader">Telephone:&nbsp&nbsp</p>
+                </td>
+                <td>
+                    <input type="tel" style="display: inline-block" placeholder="1234567890">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="lblPassword" style="color: red; display: inline-block">*</p>
+                    <p class="labelTextBoxHeader">Password:&nbsp&nbsp</p>
+                </td>
+                <td>
+                    <input id="newPassword" type="password" style="display: inline-block" placeholder="Password" maxlength="20" onkeyup="signupCheck()">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="lblConfirmPassword" style="color: red; display: inline-block">*</p>
+                    <p class="labelTextBoxHeader">Confirm Password:&nbsp&nbsp</p>
+                </td>
+                <td>
+                    <input id="newPasswordConfirm" type="password" style="display: inline-block" placeholder="Password" maxlength="20" onkeyup="signupCheck()">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="lblOrgType" style="color: red; display: inline-block">&nbsp&nbsp</p>
+                    <p class="labelTextBoxHeader">Type of organization:&nbsp&nbsp</p>
+                </td>
+                <td>
+                    <select id="newType">
+                        <option>Extracurricular</option>
+                        <option>Professional</option>
+                        <option>Charity</option>
+                        <option>Gaming</option>
+                        <option selected="selected">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="lblCAPTCHA" style="color: red; display: inline-block">&nbsp&nbsp</p>
+                    <p class="labelTextBoxHeader" id="txtCAPTCHA">Drag the image into the box to confirm you are human:&nbsp&nbsp</p>
+                </td>
+                <td>
+                    <div style="border: solid 1px; height: 50px; width: 50px;" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    <br>
+                    <img id="drag1" src="img/org.png" draggable="true" ondragstart="drag(event)" width="50" height="50">
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <a href="#" id="btnSignup" onclick="signup()" class="bigLinkButton" style="margin-right: 30px;">Submit</a>
+        <a href="#" class="bigAlertButton">I need help</a>
+
+    </center>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="footer">
+    <p>(C) 2019 MyClub LLC. -&nbsp</p><a href="#">terms of service</a>
+</div>
+</body>
+</html>

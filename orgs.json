@@ -1,0 +1,26 @@
+{
+
+  "orgs": [
+
+    {
+      "name":"Brooklyn College, Computer Science Club",
+      "member_size":"100",
+      "established":"01/01/1900"
+    },
+
+    {
+      "name":"Wounded Warriors",
+      "member_size":"1000",
+      "established":"01/01/1900"
+    },
+
+
+    {
+      "name":"Brooklyn College, Women in Computer Science Club",
+      "member_size":"100",
+      "established":"01/01/1900"
+    }
+
+  ]
+
+}

@@ -1,0 +1,62 @@
+.centerContainer {
+
+  color: #010101;
+  text-align: center;
+  font-family: Verdana;
+
+  h2 {
+    color: #69779b;
+  }
+
+  h4 {
+    color: #69779b;
+  }
+
+}
+
+.bigLinkButton {
+  text-decoration: none;
+  color: #010101;
+  background-color: rgba(93, 218, 49, 0.46);
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgba(1, 1, 1, 0.53);
+}
+
+.bigLinkButton:hover{
+  background-color: rgba(93, 218, 49, 0.75);
+}
+
+.bigAlertButton {
+  text-decoration: none;
+  color: #010101;
+  background-color: rgba(218, 16, 22, 0.46);
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgba(1, 1, 1, 0.53);
+}
+
+.bigAlertButton:hover{
+  background-color: rgba(218, 9, 17, 0.75);
+}
+
+.smallLinkButton {
+  text-decoration: none;
+  color: #010101;
+  background-color: rgba(93, 218, 49, 0.46);
+  padding: 3px;
+  border-radius: 5px;
+  border: 2px solid rgba(1, 1, 1, 0.53);
+}
+
+.smallLinkButton:hover{
+  background-color: rgba(93, 218, 49, 0.75);
+}
+
+.labelTextBoxHeader {
+  display: inline-block;
+}
+
+.bigTextBox {
+
+}

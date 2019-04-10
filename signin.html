@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 1</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="scripts/lib/jquery3.3.1.js"></script>
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+<header>
+
+    <div style="float: right; margin-top: 5px;">
+        <a href="signin.html" class="smallLinkButton">Sign in</a>&nbsp&nbsp
+    </div>
+
+    <img src="img/org.png" height="78" width="78" alt="My Club!">
+
+    <h1>MyClub</h1>
+    <h4>Connect, plan, and organize!</h4>
+
+</header>
+
+<a href="index.html" style="float: left; padding-left: 10px;">Return home</a>
+
+<br>
+
+<div class="centerContainer">
+    <h2 id="txtSigninHeader">Sign in using your e-mail and password</h2>
+
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <p class="labelTextBoxHeader">E-Mail:&nbsp&nbsp</p>
+                </td>
+                <td>
+                    <input id="signinEmail" type="email" pattern="[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*" style="display: inline-block" placeholder="andrew@myclub.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="labelTextBoxHeader">Password:&nbsp&nbsp</p>
+                </td>
+                <td>
+                    <input id="signinPassword" type="password" style="display: inline-block" placeholder="password">
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <a href="javascript:void(0);" class="bigLinkButton" style="margin-right: 30px;" onclick="signin()">Submit</a>
+        <a href="#" class="bigAlertButton">I need help</a>
+
+    </center>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="footer">
+    <p>(C) 2019 MyClub LLC. -&nbsp</p><a href="#">terms of service</a>
+</div>
+</body>
+</html>
